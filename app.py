@@ -12,7 +12,7 @@ from io import BytesIO
 
 # ================== STREAMLIT CONFIG ==================
 st.set_page_config(
-    page_title="Website Content Compliance Checker",
+    page_title="Website Content Checker",
     layout="wide"
 )
 
@@ -199,3 +199,4 @@ if st.button("🚀 Start Scan"):
             st.dataframe(results, use_container_width=True)
         else:
             st.success(f"✅ '{search_text}' not found on scanned pages.")
+
