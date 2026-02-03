@@ -123,7 +123,7 @@ def scan_website(
 
 # ================== UI ==================
 
-st.title("🔍 Website Content Compliance Checker")
+st.title("🔍 Website Content Checker")
 st.write(
     "Scan an entire website for a specific word or phrase. "
     "Counts how many times it appears in page text and images."
@@ -199,5 +199,6 @@ if st.button("🚀 Start Scan"):
             st.dataframe(results, use_container_width=True)
         else:
             st.success(f"✅ '{search_text}' not found on scanned pages.")
+
 
 
