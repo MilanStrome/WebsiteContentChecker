@@ -200,3 +200,4 @@ if st.button("🚀 Start Scan"):
         else:
             st.success(f"✅ '{search_text}' not found on scanned pages.")
 
+
