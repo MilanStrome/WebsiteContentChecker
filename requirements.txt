@@ -3,3 +3,5 @@ requests
 beautifulsoup4
 pillow
 pytesseract
+numpy
+opencv-python-headless
