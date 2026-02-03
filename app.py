@@ -136,7 +136,7 @@ search_mode = st.radio(
 
 max_pages = st.slider(
     "Maximum pages to scan",
-    10,
+    1,
     500,
     150
 )
@@ -173,3 +173,4 @@ if st.button("🚀 Start Scan"):
             st.dataframe(results, use_container_width=True)
         else:
             st.success(f"✅ '{search_text}' not found.")
+
